@@ -1,0 +1,149 @@
+* {
+  list-style: none;
+}
+.footer {
+  top: 5836px;
+  left: 0px;
+  width: 1920px;
+  height: 444px;
+  display: flex;
+  /* UI Properties */
+  background: #f4eea9 0% 0% no-repeat padding-box;
+  box-shadow: 0px 0px 20px #5d3a001f;
+  border-radius: 10px;
+  opacity: 1;
+}
+.leftside {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  top: 5836px;
+  left: 0px;
+  width: 609px;
+  height: 444px;
+  /* UI Properties */
+  background: #ffffff 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+.logo-footer {
+  top: 5848px;
+  left: 94px;
+  width: 396px;
+  height: 126px;
+  /* UI Properties */
+  background: transparent 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+.address {
+  top: 5974px;
+  left: 124px;
+  width: 335px;
+  height: 44px;
+  /* UI Properties */
+  text-align: left;
+  font: normal normal normal 30px/40px Segoe UI;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+.contacts {
+  top: 6034px;
+  left: 124px;
+  width: 344px;
+  height: 33px;
+  /* UI Properties */
+  text-align: left;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+  font-size: 1.4rem;
+  font-weight: 700;
+  font: normal normal normal 25px/33px Segoe UI;
+}
+span {
+  font: normal normal bold 25px/33px Segoe UI;
+}
+
+.rightside {
+  position: relative;
+  top: 83px;
+  left: 300px;
+  width: 800px;
+  height: 307px;
+  display: flex;
+  float: right;
+  justify-content: center;
+  align-items: center;
+  opacity: 1;
+  gap: 12rem;
+  
+}
+.footer-col {
+  
+  width: 400px;
+  height: 307px;
+}
+.footer-col .list{
+    width: 150px;
+    height: 100px;
+   
+}
+.footer-col .list li {
+  width: 67px;
+  height: 33px;
+  display: flex;
+  flex-wrap: wrap;
+  /* UI Properties */
+  text-align: left;
+  font: normal normal normal 25px/33px Segoe UI;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+  list-style: none;
+  font-size: 2rem;
+}
+
+.list-main {
+  width: 131px;
+  height: 33px;
+  /* UI Properties */
+  /* text-align: left; */
+  font: normal normal bold 25px/33px Segoe UI;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+.footer-col-sec {
+  width: 226px;
+  height: 307px;
+  /* UI Properties */
+  opacity: 1;
+}
+.list-main-second {
+  width: 106px;
+  height: 33px;
+  text-align: left;
+  font: normal normal bold 25px/33px Segoe UI;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+.footer-col-sec .list li {
+  font-size: 2rem;
+  margin: 5px;
+  text-align: left;
+}
+.copy {
+  position: relative;
+  top:400px;
+  right: 680px;
+  width:627px;
+  height: 33px;
+  /* UI Properties */
+  text-align: left;
+  font: normal normal normal 25px/33px Segoe UI;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}

@@ -1,0 +1,95 @@
+.food {
+  position: relative;
+  top: 200px;
+  width: 920px;
+  height: 855px;
+  /* UI Properties */
+  background: #ffffff 0% 0% no-repeat padding-box;
+  opacity: 1;
+  background-image: url("../assets/Path\ 1379.svg");
+  margin-left: 1.8rem;
+}
+.food h1 {
+  position: absolute;
+  top: -171px;
+
+  width: 768px;
+  height: 71px;
+  /* UI Properties */
+  text-align: left;
+  font: normal normal bold 50px/76px Poppins;
+  letter-spacing: 0px;
+  color: #080808;
+  opacity: 1;
+  border-left: 10px solid #519259;
+  margin-left: 15px;
+}
+.food-con {
+  display: flex;
+  gap:5rem;
+}
+.food-con .food-text p{
+  width: 902px;
+  height: 469px;
+  /* UI Properties */
+  text-align: left;
+  font-size: 4rem;
+  letter-spacing: 0px;
+  color: #080808;
+  padding-top: 12rem;
+  opacity: 1;
+}
+.food-img {
+  display: grid;
+  grid-gap: 10rem;
+  grid-template-areas:
+    "one   three"
+    "two   three";
+  grid-template-columns: 20% 20% 1fr;
+  background-image: url("../assets/dark.svg");
+  position: relative;
+  top: 9px;
+  left: 34px;
+  background-repeat: no-repeat;
+  
+}
+
+.food-img .f {
+  grid-area: one;
+}
+.food-img .f img {
+  position: relative;
+  top: 70px;
+  left: 37px;
+  width: 250px;
+  height: 200px;
+  border-radius: 30px;
+  opacity: 1;
+}
+
+.food-img .s {
+  grid-area: two;
+  position: relative;
+  top: -85px;
+}
+.food-img .s img {
+  position: relative;
+  top: 70px;
+  left: 37px;
+  width: 250px;
+  height: 199px;
+  border-radius: 30px;
+  opacity: 1;
+}
+.food-img .t {
+  grid-area: three;
+}
+.food-img .t img {
+  position: relative;
+  top: 70px;
+  left: 37px;
+  width: 270px;
+  height: 440px;
+  border-radius: 30px;
+  opacity: 1;
+}
